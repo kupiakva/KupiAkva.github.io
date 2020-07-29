@@ -1,17 +1,20 @@
 * {
     box-sizing: border-box;
 }
+h1{
 
-nav {
-    background-color: #ccc;
+margin-bottom: 0px;
+margin-top: 0px;
 }
+
 
 nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 2.5rem;
+    height: 0rem;
     list-style-type: none;
+  
 }
 
 main {
@@ -21,14 +24,27 @@ main {
 header {
     height: 2.5rem;
     border: 1px solid black;
+    background-color: rgb(243, 123, 53);
 }
 
 nav {
-    height: 2.5rem;
+    height: 0rem;
+    padding-top: 0rem;
+    background-color: rgb(220, 228, 243);
+    height: 3.5rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     border: 1px solid black;
 }
+.nav {
 
+    font-weight: bold;
+    font-size: 24px;
+    line-height: normal;
+    font-family: "Verdana",
+        sans-serif;
+
+}
 main {
     flex-grow: 1;
     display: flex;
@@ -53,4 +69,16 @@ footer {
     height: 2.5rem;
     margin-top: 1rem;
     border: 1px solid black;
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+.item {
+    font-family: "Georgia", serif;
+    font-size: 1rem;
 }
