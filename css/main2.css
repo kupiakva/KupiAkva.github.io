@@ -3,6 +3,11 @@ html {
     height: 100%;
 }
 
+
+header {
+    /* 0 flex-grow, 0 flex-shrink, auto flex-basis */
+    flex: 0 0 auto;
+}
 body {
     margin: 0;
     padding: 0;
@@ -17,6 +22,7 @@ body {
 }
 
 .footer {
+    flex: 0 0 auto;
     flex-shrink: 0;
     padding: 20px;
     background-color: red;
