@@ -1,36 +1,271 @@
+/* reset browser styles */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li,
+pre,
+code,
+address,
+variable,
+form,
+fieldset,
+blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol {
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    margin-left: 1.4em;
+    list-style: square;
+}
+
+img {
+    border: 0;
+}
+
+/* end reset browser styles */
+
+
+/*  для футера  */ 
+
+
+
+.site-footer .nav-item:last-child .nav-link {
+    border-right: 0;
+}
+
+.site-footer .nav-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #555d65;
+    text-transform: uppercase;
+    border-right: 1px solid #495057;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link {
+    font-size: 1.1 !important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+
+a {
+    color: #2780e3;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+A {
+    color: red;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto condensed", sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+таблица стилей агента пользователя a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+таблица стилей агента пользователя li {
+    text-align: -webkit-match-parent;
+}
+
+.nav {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+таблица стилей агента пользователя ul {
+    list-style-type: disc;
+}
+
 body {
-    display: grid;
-    grid-template-columns: 1fr 10rem;
-    grid-template-rows: 2.5rem 2.5rem 1fr 2.5rem;
-    grid-gap: 1rem 1rem;
-    min-height: 100vh;
+    margin: 0;
+    font-family: PT Sans Caption, sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+    text-align: left;
+    background-color: #fff;
 }
 
-header {
-    grid-column: 1 / end;
-    grid-row: 1;
-    border: 1px solid black;
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
 }
 
-nav {
-    grid-column: 1 / end;
-    grid-row: 2;
-    border: 1px solid black;
+
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-article {
-    grid-column: 1;
-    grid-row: 3;
-    border: 1px solid black;
-}
-aside {
-    grid-column: 2 / end;
-    grid-row: 3;
-    border: 1px solid black;
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
-footer {
-    grid-column: 1 / end;
-    grid-row: 4;
-    border: 1px solid black;
+*,
+:after,
+:before {
+    box-sizing: border-box;
 }
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.site-footer .copy {
+    border-top: 1px solid #212529;
+    text-align: center;
+    color: #555d65;
+    text-transform: uppercase;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 90%;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto condensed", sans-serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+таблица стилей агента пользователя div {
+    display: block;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+
+
+/*  для футера конец   */
